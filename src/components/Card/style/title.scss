@@ -1,0 +1,14 @@
+.card-title {
+    height: 36px;
+    border-bottom: 2px solid #C10D0C;
+    line-height: 36px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    .left {
+        display: flex;
+        .text-title {
+            display: flex;
+        }
+    }
+}

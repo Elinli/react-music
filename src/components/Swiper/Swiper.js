@@ -14,6 +14,10 @@ import B7 from '../../assets/img/banner/b7.jpg'
 import B8 from '../../assets/img/banner/b8.jpg'
 import B9 from '../../assets/img/banner/b9.jpg'
 import B10 from '../../assets/img/banner/b10.jpg'
+import B11 from '../../assets/img/banner/b11.jpg'
+import B12 from '../../assets/img/banner/b12.jpg'
+import B13 from '../../assets/img/banner/b13.jpg'
+import B14 from '../../assets/img/banner/b14.jpg'
 
 // Import Swiper styles
 import 'swiper/css'
@@ -66,6 +70,22 @@ function EliSwiper(props) {
     {
       url: B10,
       alt: 'b10'
+    },
+    {
+      url: B11,
+      alt: 'b11'
+    },
+    {
+      url: B12,
+      alt: 'b12'
+    },
+    {
+      url: B13,
+      alt: 'b13'
+    },
+    {
+      url: B14,
+      alt: 'b14'
     }
   ]
   function getImageColor(img) {

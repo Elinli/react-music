@@ -1,14 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import './style/index.scss'
 export default function Card(props = { title: <h4>标题</h4>,content: <div>标题</div> }) {
   return (
     <div className='card'>
-      <div className='card-title'>
-        {props.title}
-      </div>
-      <div className='card-content'>
-        {props.content}
-      </div>
+      {props.title}
+      {props.content}
     </div>
   )
 }
