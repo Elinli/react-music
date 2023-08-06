@@ -9,6 +9,8 @@
         display: flex;
         .text-title {
             display: flex;
+            flex-grow: 1;
+            flex-wrap: nowrap;
         }
     }
 }
